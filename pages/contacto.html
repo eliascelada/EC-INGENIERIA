@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header">
+        <img src="../img/logoprov.png" alt="" height="75" width="80">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="../index.html">Inicio</a></li>
+                <li class="nav__item"><a class="nav__link" href="./proyectos.html">Proyectos</a></li>
+                <li class="nav__item"><a class="nav__link" href="./servicios.html">Servicios</a></li>
+                <li class="nav__item"><a class="nav__link" href="./nosotros.html">Sobre Nosotros</a></li>
+                <li class="nav__item"><a class="nav__link" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main contacto">
+        <h1 class="contact__title">Contacto</h1>
+        <form action="">
+        <!--<fieldset class="cuadro">-->
+            <!-- <legend>Formulario de contacto</legend> -->
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" name="nombre" id="nombre"><br><br>
+                <label for="apellido">Apellido</label><br>
+                <input type="text" name="apellido" id="apellido"><br><br>
+                <label for="correo">Correo electrónico:</label><br>
+                <input type="text" name="correo" id="correo"><br><br>
+                <label for="telefono">Teléfono de contacto:</label><br>
+                <input type="text" name="telefono" id="telefono"><br><br>
+                <label for="mensaje">Escriba su consulta:</label><br>
+                <textarea name="mensaje" id="mensaje" cols="70" rows="10"></textarea><br><br>
+                <label for="conocio">¿Cómo nos conociste?</label><br>
+                <select name="conocio" id="conocio">
+                    <option value="redes">Redes sociales</option>
+                    <option value="internet">Internet</option>
+                    <option value="referencia">Referencia de un conocido</option>
+                    <option value="other">Otro medio</option>
+                </select><br><br>
+                <label>¿Desea recibir el newlesster?</label><br>
+                <div class="newlesster">
+                    <div class="yesornot">
+                        <input type="radio" name="newlesster" id="yes">
+                        <label>Si</label>
+                    </div>
+                    <div class="yesornot">
+                        <input type="radio" name="newlesster" id="no">
+                        <label>No</label>
+                    </div>
+                <div class="buttons">
+                    <input class="button__send" type="submit" value="Enviar">
+                    <input class="button__send" type="submit" value="Limpiar">
+                </div>
+                </div>
+                </fieldset>
+        </form>
+    </main>
+    
+    <!-- PIE DE PAGINA -->
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <img src="../img/logoprov.png" alt="" height="100" width="100">
+            <div class="nav__footer">
+                <ul class="nav__list__footer">
+                    <li><a class="nav__link__footer" href="../index.html">Inicio</a></li>
+                    <li><a class="nav__link__footer" href="./proyectos.html">Proyectos</a></li>
+                    <li><a class="nav__link__footer" href="./servicios.html">Servicios</a></li>
+                    <li><a class="nav__link__footer" href="./nosotros.html">Sobre Nosotros</a></li>
+                    <li><a class="nav__link__footer" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer__redes">
+                <p>Seguinos en nuestras redes</p>
+                <p class="redes__logo"><img src="../img/facebook.png" alt="" height="30"  width="30"></p>
+                <p class="redes__logo"><img src="../img/instagram.png" alt="" height="30" width="30"></p>
+                <p class="redes__logo"><img src="../img/linkedin.png" alt="" height="30" width="30"></p>
+            </div>
+        </div>
+        <div class="firma">
+            <p>© Elías Celada - Todos los derechos reservados.</p>
+        </div>
+        </footer>
+</body>
+</html>
