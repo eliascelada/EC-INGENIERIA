@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Contacto</title>
 </head>
@@ -20,7 +21,7 @@
             </ul>
         </nav>
     </header>
-    <main class="main contacto">
+    <main class="main contacto" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <h1 class="contact__title">Contacto</h1>
         <form action="">
         <!--<fieldset class="cuadro">-->
@@ -52,7 +53,7 @@
                         <input type="radio" name="newlesster" id="no">
                         <label>No</label>
                     </div>
-                <div class="buttons">
+                <div class="buttons" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <input class="button__send" type="submit" value="Enviar">
                     <input class="button__send" type="submit" value="Limpiar">
                 </div>
@@ -85,5 +86,9 @@
             <p>© Elías Celada - Todos los derechos reservados.</p>
         </div>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script> 
 </body>
 </html>
