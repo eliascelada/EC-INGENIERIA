@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>EC INGENIERIA</title>
 </head>
@@ -47,7 +48,7 @@
         </div>
     </main>
     <aside class="aside">
-        <div class="somos">
+        <div class="somos"  data-aos="fade-up">
             <div>
                 <img class="somos__img" src="./img/somos.jpg" alt="" height="250px" width="px">
             </div>
@@ -60,19 +61,19 @@
         <div class="container">
             <h2 data-aos="zoom-in">Nuestros Servicios</h2>
             <div class="services">
-                <div class="target first">
+                <div class="target first" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img class="target__img" src="./img/scott-graham-5fNmWej4tAA-unsplash.jpg" alt="">
                     <h3>Servicio 1</h3>
                     <p class="target__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, iusto. Delectus, corrupti tempore consequatur commodi accusantium illo, aliquid laudantium sint quis tenetur asperiores labore ab! Tenetur voluptates quam corporis dolorem!</p>
                     <button class="target__button">+ Info</button>
                 </div>
-                <div class="target second">
+                <div class="target second" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img class="target__img" src="./img/scott-graham-5fNmWej4tAA-unsplash.jpg" alt="">
                     <h3>Servicio 2</h3>
                     <p class="target__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repellendus aliquam pariatur delectus! Sunt ullam optio, incidunt dolore doloribus repudiandae voluptatibus, nemo dolorem quis fugiat consequatur suscipit ea. Deserunt, repellat?</p>
                     <button class="target__button">+ Info</button>
                 </div>
-                <div class="target third">
+                <div class="target third" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img class="target__img" src="./img/scott-graham-5fNmWej4tAA-unsplash.jpg" alt="">
                     <h3>Servicio 3</h3>
                     <p class="target__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repellendus aliquam pariatur delectus! Sunt ullam optio, incidunt dolore doloribus repudiandae voluptatibus, nemo dolorem quis fugiat consequatur suscipit ea. Deserunt, repellat?</p>
@@ -104,5 +105,10 @@
             <p>© Elías Celada - Todos los derechos reservados.</p>
         </div>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
 </body>
 </html>
