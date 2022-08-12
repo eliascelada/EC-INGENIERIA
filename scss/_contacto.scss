@@ -1,0 +1,70 @@
+/* ------------------------- MAIN de Contacto ------------------------- */
+.contacto {
+    padding: 30px;
+    background-color: rgb(27, 26, 26);
+    color: white;
+
+    .contact__title {
+        margin-bottom: 25px;
+    }
+
+    .newlesster {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuadro {
+        background-color: rgb(61, 57, 57);
+        padding: 30px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        border-radius: 15px;
+        padding: 30px;
+        background-color: rgb(61, 57, 57);
+
+        input {
+            border-radius: 5px;
+            margin-top: 5px;
+            padding: 7px;
+        }
+        
+        select {
+        margin-top: 5px;
+        }
+
+        textarea {
+            max-width: 250px;
+            margin-top: 5px;
+        }
+        
+        .yesornot {
+            padding-top: 10px;
+        }
+        
+        .buttons {
+            display: flex;
+        }
+        
+        .button__send {
+            font-size: 15px;
+            font-weight: bold;
+            padding: 10px 30px;
+            border-radius: 5px;
+            border: 2px solid rgb(70, 35, 128);
+            color: white;
+            background-color: rgb(63, 63, 148);
+            margin: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+}

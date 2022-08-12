@@ -1,0 +1,46 @@
+/*------------------------------------------ ENCABEZADO ------------------------------------------*/
+.header {
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    grid-area: header;
+    
+    header img {
+        margin: 5px;
+    }
+    
+    .nav__list {
+        list-style: none;
+        display: flex;
+        margin: 15px;
+        
+        .nav__item {
+            padding: 15px;
+            
+            .nav__link {
+                color: rgb(27, 26, 26);
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .nav__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
