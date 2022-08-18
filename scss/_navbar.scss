@@ -1,6 +1,6 @@
 /*------------------------------------------ ENCABEZADO ------------------------------------------*/
 .header {
-    background-color: rgb(255, 255, 255);
+    background-color: map-get($colors, $color-white);
     position: sticky;
     display: flex;
     justify-content: space-between;
