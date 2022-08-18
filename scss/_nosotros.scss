@@ -58,11 +58,7 @@
         }
         
         .valores {
-            margin: 10px;
-            padding: 30px;
-            width: 50%;
-            text-align: center;
-            border-style: outset;
+            @extend .mision;
         
             .valores__title {
                 padding-bottom: 10px;

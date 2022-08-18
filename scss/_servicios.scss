@@ -11,7 +11,7 @@
         .main__images {
             display: flex;
             flex-wrap: wrap;
-            background-color: map-get($colors, $color-back-black),
+            background-color: map-get($colors, $color-back-black);
             padding: 20px;
             border-radius: 15px;
             width: cover;
