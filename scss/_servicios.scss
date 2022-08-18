@@ -26,36 +26,28 @@
                 margin: 15px;
             }
             .uno {
-                background-image: url("../img/servicio1.jpg");
-                background-size: cover;
+                @include uno (url("../img/servicio1.jpg"));
             }
             .dos {
-                background-image: url("../img/servicio2.jpg");
-                background-size: cover;
+                @include uno (url("../img/servicio2.jpg"));
             }
             .tres {
-                background-image: url("../img/servicio3.jpg");
-                background-size: cover;
+                @include uno (url("../img/servicio3.jpg"));
             }
             .cuatro {
-                background-image: url("../img/servicio4.jpg");
-                background-size: cover;
+                @include uno (url("../img/servicio4.jpg"));
             }
             .cinco {
-                background-image: url("../img/servicio5.jpg");
-                background-size: cover;
+                @include uno (url("../img/servicio5.jpg"));
             }
             .seis {
-                background-image: url("../img/servicio6.jpg");
-                background-size: cover;
+                @include uno (url("../img/servicio6.jpg"));
             }
             .siete {
-                background-image: url("../img/servicio7.jpg");
-                background-size: cover;
+                @include uno (url("../img/servicio7.jpg"));
             }
             .ocho {
-                background-image: url("../img/servicio8.jpg");
-                background-size: cover;
+                @include uno (url("../img/servicio8.jpg"));
             }
 
             .service__card:hover, .service__card:focus-within {

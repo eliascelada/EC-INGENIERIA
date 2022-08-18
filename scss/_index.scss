@@ -2,18 +2,7 @@
 
 .main {
     .carousel1 {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        background-image: url("../img/ppal1.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 650px;
-        width: cover;
-        color: map-get($colors, $color-white);
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        padding-left: 30px;
+        @include carousel1(url("../img/ppal1.jpg"));
         
         .carousel1  h1 {
             font-size: 50px;
@@ -25,19 +14,8 @@
     }
     
     .carousel2 {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        background-image: url("../img/innovation.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 650px;
-        width: cover;
-        color: map-get($colors, $color-white);
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        padding-left: 30px;
-    
+        @include carousel1(url("../img/innovation.jpg"));
+
         .carousel2  h1 {
             font-size: 50px;
         }
@@ -48,19 +26,8 @@
     }
     
     .carousel3 {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        background-image: url("../img/tableroppal.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 650px;
-        width: cover;
-        color: map-get($colors, $color-white);
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        padding-left: 30px;
-    
+        @include carousel1(url("../img/tableroppal.jpg"));
+            
         .carousel3  h1 {
             font-size: 50px;
         }
