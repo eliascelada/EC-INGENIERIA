@@ -19,8 +19,8 @@ button {
     font-weight: bold;
     padding: 10px 30px;
     border-radius: 5px;
-    border: 2px solid rgb(70, 35, 128);
-    color: white;
-    background-color: rgb(63, 63, 148);
+    border: 2px solid map-get($colors, $back-blue);
+    color: map-get($colors, $color-white);
+    background-color: map-get($colors, $back-blue);
     margin: 30px;
 }

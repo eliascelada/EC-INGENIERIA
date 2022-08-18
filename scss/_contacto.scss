@@ -1,8 +1,8 @@
 /* ------------------------- MAIN de Contacto ------------------------- */
 .contacto {
     padding: 30px;
-    background-color: rgb(27, 26, 26);
-    color: white;
+    background-color: map-get($colors, $color-txt-black);
+    color: map-get($colors, $color-white);
 
     .contact__title {
         margin-bottom: 25px;
@@ -14,7 +14,7 @@
     }
 
     .cuadro {
-        background-color: rgb(61, 57, 57);
+        background-color: map-get($colors, $color-back-black);
         padding: 30px;
         width: 500px;
         display: flex;
@@ -24,7 +24,7 @@
     form {
         border-radius: 15px;
         padding: 30px;
-        background-color: rgb(61, 57, 57);
+        background-color: map-get($colors, $color-back-black);
 
         input {
             border-radius: 5px;
@@ -54,9 +54,9 @@
             font-weight: bold;
             padding: 10px 30px;
             border-radius: 5px;
-            border: 2px solid rgb(70, 35, 128);
-            color: white;
-            background-color: rgb(63, 63, 148);
+            border: 2px solid #462380;
+            color: map-get($colors, $color-white);
+            background-color: map-get($colors, $color-back-blue);
             margin: 30px;
         }
     }

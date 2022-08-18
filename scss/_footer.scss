@@ -1,6 +1,6 @@
 /*------------------------------------------ PIE DE PÁGINA ------------------------------------------*/
 .footer {
-    background-color: rgb(255, 255, 255);
+    background-color: map-get($colors, $color-white);
     grid-area: footer;
 
     .footer__contenedor {
@@ -23,14 +23,14 @@
             .nav__link__footer{
                 text-transform: uppercase;
                 text-decoration: none;
-                color: black;
+                color: map-get($colors, $color-black);
             }
         }
     }
     .firma {
         text-align: center;
-        background-color: rgb(61, 57, 57);
-        color: white;
+        background-color: map-get($colors, $color-back-black);
+        color: map-get($colors, $color-white);
         font-size: smaller;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }

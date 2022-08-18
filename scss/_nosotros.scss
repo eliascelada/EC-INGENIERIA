@@ -2,15 +2,15 @@
 
 .main {
     .nosotros__title {
-        background-color: rgb(27, 26, 26);
+        background-color: map-get($colors, $color-txt-black);
         padding: 30px;
-        color: white;
+        color: map-get($colors, $color-white);
     }
     
     .nosotros__history {
         padding: 30px;
-        background-color: rgb(61, 57, 57);
-        color: white;
+        background-color: map-get($colors, $color-back-black);
+        color: map-get($colors, $color-white);
         width: cover;
     
         .nosotros__content {
@@ -30,16 +30,16 @@
             padding-top: 20px;
             justify-content: center;
             text-align: center;
-            color: white;
+            color: map-get($colors, $color-white);
         }
     }
     
     .nosotros__blocks {
         display: flex;
         flex-direction: row;
-        background-color: rgb(27, 26, 26);
+        background-color: map-get($colors, $color-txt-black);
         width: cover;
-        color: white;
+        color: map-get($colors, $color-white);
     
         .mision {
             margin: 10px;

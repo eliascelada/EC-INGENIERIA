@@ -19,7 +19,7 @@
             padding: 15px;
             
             .nav__link {
-                color: rgb(27, 26, 26);
+                color: map-get($colors, $color-txt-black);
                 text-transform: uppercase;
                 text-decoration: none;
             }

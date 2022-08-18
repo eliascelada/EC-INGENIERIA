@@ -1,15 +1,15 @@
 /* ------------------------- MAIN de Proyectos ------------------------- */
 
 .main {
-  background-color: rgb(61, 57, 57);
+  background-color: map-get($colors, $color-back-black);
   padding-bottom: 25px;
 
   .pro__cont {
     display: flex;
     border-style: ridge;
-    color: white;
-    border-color: white;
-    background-color: rgb(27, 26, 26);
+    color: map-get($colors, $color-white);
+    border-color: map-get($colors, $color-white);
+    background-color: map-get($colors, $color-back-black);
     margin: 25px;
     border-radius: 15px;
 
